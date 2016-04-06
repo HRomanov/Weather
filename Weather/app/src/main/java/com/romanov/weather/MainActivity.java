@@ -17,7 +17,6 @@ public class MainActivity extends Activity {
         
         initToolbar ();
     }
-
     private void initToolbar() {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle(R.string.app_name);
