@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Weather</string>
     <string name="search_title">Search</string>
+
+    <string name="menu_item_weather">Погода(изменить название)</string>
+
+    <string name="view_navigatoin_open">Open</string>
+    <string name="view_navigatoin_close">Close</string>
+
 </resources>
