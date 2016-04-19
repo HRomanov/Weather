@@ -4,14 +4,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.app.Activity;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity{
 
     private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.AppDefault); // используем свой стиль по умолчанию
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
