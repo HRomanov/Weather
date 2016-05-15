@@ -5,6 +5,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import com.romanov.weather.fragment.ExempleFragment;
+import com.romanov.weather.fragment.TodayFragment;
 
 /**
  * Created by Геннадий on 19.04.2016.
@@ -16,8 +17,8 @@ public class TabsPagerFragmentAdapter extends FragmentPagerAdapter {
     public TabsPagerFragmentAdapter(FragmentManager fm) {
         super(fm);
         tabs = new String[]{
-                "Сейчас",
                 "Сегодня",
+                "Потом",
                 "Завтра"
         };
     }
@@ -31,7 +32,7 @@ public class TabsPagerFragmentAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position){
             case 0:
-                return ExempleFragment.getInstance();
+                return TodayFragment.getInstance();
             case 1:
                 return ExempleFragment.getInstance();
             case 2:
