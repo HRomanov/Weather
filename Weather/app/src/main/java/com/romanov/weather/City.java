@@ -12,6 +12,8 @@ public class City {
         prefs = activity.getPreferences(Activity.MODE_PRIVATE);
     }
 
+
+
     // Если пользователь еще не выбрал город
     // Киев будет стоять по умолчанию
     public String getCity() {

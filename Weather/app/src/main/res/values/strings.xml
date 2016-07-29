@@ -1,8 +1,13 @@
 <resources>
     <string name="app_name">Weather</string>
     <string name="search_title">Search</string>
+    <string name="add_city_title">Plus</string>
 
-    <string name="menu_item_weather">Погода(изменить название)</string>
+    <string name="city_name_1">Kharkiv</string>
+    <string name="city_name_2">Kiev</string>
+    <string name="city_name_3">London</string>
+    <string name="city_name_4">New York</string>
+    <string name="city_name_5">Los Angeles</string>
 
     <string name="view_navigatoin_open">Open</string>
     <string name="view_navigatoin_close">Close</string>

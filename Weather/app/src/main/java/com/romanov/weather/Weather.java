@@ -11,13 +11,12 @@ import android.content.Context;
 
 public class Weather {
 	  private static final String OPEN_WEATHER_MAP_API = 
-	            "http://api.openweathermap.org/data/2.5/weather?q=%s&units=metric";
+	            "http://api.openweathermap.org/data/2.5/forecast?q=%s&units=metric";
 	     
 	    public static JSONObject getJSON(Context context, String city){
 	        try {
 	            URL url = new URL(String.format(OPEN_WEATHER_MAP_API, city));           
-	            HttpURLConnection connection = 
-	                    (HttpURLConnection)url.openConnection();
+	            HttpURLConnection connection = (HttpURLConnection)url.openConnection();
 	             
 	            connection.addRequestProperty("x-api-key", context.getString(R.string.open_weather_maps_app_id));
 	             
@@ -39,6 +38,6 @@ public class Weather {
 	        }catch(Exception e){
 	            return null;
 	        }
-	    }   
+	    }
 
 }

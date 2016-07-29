@@ -5,9 +5,14 @@
 
     <style name="AppDefault" parent="AppTheme">
         <!-- Customize your theme here. -->
+
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorControlNormal">@color/colorWhite</item>
+
     </style>
+     <style name="Base.Widget.Design.TabLayout" parent="android:Widget">
+         <item name="tabBackground">@drawable/tab_background</item>
+     </style>
 
 </resources>

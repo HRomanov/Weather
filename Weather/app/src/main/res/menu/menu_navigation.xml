@@ -2,9 +2,34 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
 
-        android:id="@+id/actionNotificationItem"
+        android:id="@+id/city_name_1"
         android:orderInCategory="1"
-        android:title="@string/menu_item_weather"
+        android:title="@string/city_name_1"
         android:icon="@mipmap/ic_weather_cloudy" />
+    <item
+
+        android:id="@+id/city_name_2"
+        android:orderInCategory="1"
+        android:title="@string/city_name_2"
+        android:icon="@mipmap/ic_weather_cloudy" />
+    <item
+
+        android:id="@+id/city_name_3"
+        android:orderInCategory="1"
+        android:title="@string/city_name_3"
+        android:icon="@mipmap/ic_weather_cloudy" />
+    <item
+
+        android:id="@+id/city_name_4"
+        android:orderInCategory="1"
+        android:title="@string/city_name_4"
+        android:icon="@mipmap/ic_weather_cloudy" />
+    <item
+
+        android:id="@+id/city_name_5"
+        android:orderInCategory="1"
+        android:title="@string/city_name_5"
+        android:icon="@mipmap/ic_weather_cloudy" />
+
 
 </menu>
