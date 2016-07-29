@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_3"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityCity_1"
+    tools:ignore="MergeRootFrame">
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000" >
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:width="400dp"
+                android:gravity="center"
+                android:height="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000" >
+
+            <TextView
+                android:id="@+id/city_field"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:width="400dp"
+                android:gravity="center"
+                android:height="40dp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView46"
+                android:height="20dp"
+                android:width="140dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_vertical"
+                android:width="50dp"
+                android:height="20dp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:textColor="@color/colorWhite"
+                android:height="20dp"
+                android:width="60dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:textColor="@color/colorWhite"
+                android:height="20dp"
+                android:width="50dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:textColor="@color/colorWhite"
+                android:typeface="serif"
+                android:layout_column="0"
+                android:width="50dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="18dp"
+                android:height="20dp"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000" >
+
+            <TextView
+                android:id="@+id/textView27"
+                android:height="40dp"
+                android:width="50dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:height="40dp"
+                android:width="50dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:height="40dp"
+                android:width="50dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:height="40dp"
+                android:width="50dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:height="40dp"
+                android:width="50dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#ffffff" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView32"
+                android:height="20dp"
+                android:width="140dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_vertical"
+                android:width="50dp"
+                android:height="20dp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:textColor="@color/colorWhite"
+                android:height="20dp"
+                android:width="60dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:textColor="@color/colorWhite"
+                android:height="20dp"
+                android:width="50dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:textColor="@color/colorWhite"
+                android:typeface="serif"
+                android:layout_column="0"
+                android:width="50dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="18dp"
+                android:height="20dp"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#4d000000">
+
+            <TextView
+                android:id="@+id/updated_field"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:height="25dp"
+                android:width="50dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:typeface="serif"
+                android:layout_column="0"
+                android:width="50dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:height="25dp"
+                android:width="50dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:text="15"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_vertical"
+                android:textSize="15dp"
+                android:width="50dp"
+                android:text="21"
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:textColor="@color/colorWhite"
+                android:height="40dp"
+                android:width="60dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:text="Cloudy"
+                android:gravity="center"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/weather_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+
+
+            <TextView
+                android:id="@+id/weather_icon_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:id="@+id/weather_icon_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:id="@+id/weather_icon_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#4d000000"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:textColor="@color/colorWhite"
+                android:height="40dp"
+                android:width="50dp"
+                android:layout_width="wrap_content"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:text="Temperature, °C"
+                android:layout_gravity="center_vertical"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/current_temperature_field"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/current_temperature_field_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/current_temperature_field_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_gravity="center" />
+            <TextView
+                android:id="@+id/current_temperature_field_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_gravity="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView8"
+                android:textColor="@color/colorWhite"
+                android:height="40dp"
+                android:width="60dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:text="Humidity, %"
+                android:gravity="center"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/humidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/humidity_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:layout_gravity="center_vertical" />
+
+
+            <TextView
+                android:id="@+id/humidity_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:layout_gravity="center_vertical" />
+
+
+            <TextView
+                android:id="@+id/humidity_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:layout_gravity="center_vertical" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#4d000000">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:textColor="@color/colorWhite"
+                android:height="40dp"
+                android:width="60dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:text="Pressure, hPa"
+                android:textSize="15dp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/pressure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/pressure_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/pressure_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/pressure_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textSize="15dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView40"
+                android:textColor="@color/colorWhite"
+                android:height="40dp"
+                android:width="60dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:text="Wind, m/s"
+                android:textSize="15dp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/wind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/wind_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/wind_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/wind_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textSize="15dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#4d000000">
+
+            <TextView
+                android:id="@+id/textView42"
+                android:height="40dp"
+                android:width="140dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_vertical"
+                android:width="50dp"
+                android:height="40dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:textColor="@color/colorWhite"
+                android:height="40dp"
+                android:width="60dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:textColor="@color/colorWhite"
+                android:height="40dp"
+                android:width="50dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:textColor="@color/colorWhite"
+                android:typeface="serif"
+                android:layout_column="0"
+                android:width="50dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="18dp"
+                android:height="40dp"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView44"
+                android:height="40dp"
+                android:width="140dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_vertical"
+                android:width="50dp"
+                android:height="40dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:textColor="@color/colorWhite"
+                android:height="40dp"
+                android:width="60dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:textColor="@color/colorWhite"
+                android:height="40dp"
+                android:width="50dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:textColor="@color/colorWhite"
+                android:typeface="serif"
+                android:layout_column="0"
+                android:width="50dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="18dp"
+                android:height="40dp"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
+
+
