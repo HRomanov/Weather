@@ -4,5 +4,4 @@ android-weather allows users to view the current five-day forecast for the five 
 
 ![Screenshot_1](https://github.com/HRomanov/Weather/raw/master/Screenshot_1.jpg)    
 ![Screenshot_2](https://github.com/HRomanov/Weather/raw/master/Screenshot_2.jpg)
-
 ![Screenshot_3](https://github.com/HRomanov/Weather/raw/master/Screenshot_3.jpg)  ![Screenshot_4](https://github.com/HRomanov/Weather/raw/master/Screenshot_4.jpg)
